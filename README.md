@@ -8,6 +8,7 @@ text.
 Recognition of the text written is also an important application in computer vision. Recognition of the text in natural images with the help of sliding windows and connected component analysis are mainstream in this domain. Recognition of text is particularly difficult as it involves the high variation in font, size, orientation and the complicated backgrounds.
 
 Our project involves the recognition of one single digit that is written on the air. To achieve this we have adopted a deep learning based approach. The model adopted is convolutional neural network (CNN) which is most commonly used in the analyses of visual imagery. They are robust to shift and space variance based on their shared weights architecture and translation invariance. CNNs structure helps in avoiding overfitting in the model. The model needs to be trained on a dataset so that the trained model can be used in the prediction or recognition of the written text. The dataset used for this purpose is MNIST dataset. The Dataset consists of 60,000 training images of handwritten digits from 0-9. Recognition/ prediction can be achieved through this pre trained network. 
+
 LITERATURE SURVEY:
 
 We surveyed a few methods which would help in the tracking. One of them is taking the histogram of the object that is to be tracked and then subtracting the background environment in real time. 
