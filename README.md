@@ -1,5 +1,4 @@
-INTRODUCTION:
-
+## INTRODUCTION:
 Controlling appliances and electronics through hand gestures is an important and still developing technology. Being able to completely detach from electronics to control appliances is very difficult to achieve as there are many ways an appliance may receive wrong commands. It is important that the system of control is robust enough to not let the appliance accept wrong/ false commands and still achieve the goal of communication. This project is the first step to detach the need of touch to control an appliance. There are many ways of achieving this, the most common is the use of a smaller appliance attached to the user that can detect the movement and communicate the information further as per requirement. Some other ways are detection of gestures through a camera, detection of the motion through a camera. This detection involves subdomains of computer vision such as object tracking and recognition of text.
 
 Object tracking is one of the important applications in computer vision. Object tracking helps in understanding the environment and helps the computers or machines respond to the stimulus of movement appropriately. Writing text on air to control the applications in the machines involves object tracking, then it further involves the prediction of the instruction i.e. the recognition of the 
@@ -9,7 +8,7 @@ Recognition of the text written is also an important application in computer vis
 
 Our project involves the recognition of one single digit that is written on the air. To achieve this we have adopted a deep learning based approach. The model adopted is convolutional neural network (CNN) which is most commonly used in the analyses of visual imagery. They are robust to shift and space variance based on their shared weights architecture and translation invariance. CNNs structure helps in avoiding overfitting in the model. The model needs to be trained on a dataset so that the trained model can be used in the prediction or recognition of the written text. The dataset used for this purpose is MNIST dataset. The Dataset consists of 60,000 training images of handwritten digits from 0-9. Recognition/ prediction can be achieved through this pre trained network. 
 
-LITERATURE SURVEY:
+## LITERATURE SURVEY:
 
 We surveyed a few methods which would help in the tracking. One of them is taking the histogram of the object that is to be tracked and then subtracting the background environment in real time. 
 
@@ -40,20 +39,20 @@ VIRTUAL LINK USING PYTHON
 
 Creators in Akash Uniyal and all, ‘’ Virtual Ink Using Python (No. 5707). Easychair , 2021” , We use python as our essential language and its packages OpenCV and NumPy. Basically, OpenCV is a library of programming functions mainly aimed at PC vision. Initially created by Intel, it was later upheld by Willow Garage. And NumPy is basically, a library for the Python programming language, adding support for enormous, multi-dimensional arrays and lattices, along with an enormous collection of high-level numerical capacities to work on these arrays. The Project was fundamentally a PC vision application which utilizes the webcam of your gadget. By opening the webcam of your gadget all you want is to simply hold the pencil or some pen in our grasp, then, at that point, drag the pen or pencil in air if front of your gadget camera (approx.1530 cm).
  
-SOFTWARES AND LIBRARIES USED:
+## SOFTWARES AND LIBRARIES USED:
 
 ANACONDA: It is python pre-packaged distribution of python which contains python modules and packages, including JUPYTER.
 TENSORFLOW: It is most popular framework in Deep Learning. Tensorflow is an open platform for machine learning. It is flexible ecosystem of tools, libraries and other resources that provide workflow with a high level API.
 OPENCV: It is open-source computer vision and machine learning software library.
 
-IMPLEMENTATION:
+## IMPLEMENTATION:
 
-## Network Architecture
+Network Architecture
 In neural networks, convolutional neural networks is one of the main categories to do image recognition, image classification. Object detections, recognition of faces are some of the areas where CNNs are widely used. A CNN is a deep learning algorithm which can take in an image as input, assign importance to various aspects/ objects in the image and categories the images. We prefer CNNs over feed forward neural networks because for image analysis feed forward neural networks can be overfitting and hence result in wrong outputs. Whereas CNNs can successfully capture the spatial and temporal dependencies in an image through the application of relevant filters or kernels.
 
-## Lucas–Kanade method for Optical Flow
+Lucas–Kanade method for Optical Flow
 Lucas-Kanade method is used for optical flow estimation which assumes that the flow is essentially constant in a local neighbourhood of the pixel under consideration, and solves the basic optical flow equations for all the pixels in that neighbourhood, by the least square criterion.
 
-CONCLUSION AND FUTURE WORK:
+## CONCLUSION AND FUTURE WORK:
 
 The project can be further improved by tracking finger without colour-specific detection. Data sets used in CNNs can be configured with augmented data to increase the accuracy of test cases. By implementing Optical Character Recognition (OCR), we can achieve recognition of multiple numbers/alphabet characters.
